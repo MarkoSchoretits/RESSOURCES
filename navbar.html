@@ -1,5 +1,42 @@
-<nav>
-    <a href="html.html">HTML</a>
-    <a href="css.html">CSS</a>
-    <a href="js.html">JS</a>
+<style>
+    .nav_main {
+        width: 100%;
+        background-color: black;
+        color: #f00;
+        font-weight: bold;
+    }
+    .nav_main a {
+        color: lightgray;
+        text-decoration: none;
+        font-weight: normal;
+    }
+    .nav_main ul {
+        list-style-type: none;
+        padding-left: 16px;
+    }
+    .nav_main > ul {
+        display: inline-block;
+        margin: 4px 8px;
+    }
+</style>
+
+<nav class="nav_main">
+    <ul>HTML
+        <ul>
+            <li><a href="html_basic.php">HTML basic</a></li>
+            <li><a href="html_second.php">HTML second</a></li>
+        </ul>
+    </ul>
+    <ul>CSS
+        <ul>
+            <li><a href="">CSS first</a></li>
+            <li><a href="">CSS second</a></li>
+        </ul>
+    </ul>
+    <ul>JS
+        <ul>
+            <li><a href="">JS first</a></li>
+            <li><a href="">JS second</a></li>
+        </ul>
+    </ul>
 </nav>
